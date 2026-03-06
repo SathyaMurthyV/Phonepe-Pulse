@@ -1,6 +1,18 @@
-**PhonePe Pulse Data Analysis Dashboard**
+**📊 PhonePe Pulse Data Analysis Dashboard**
 
-**Overview :**
+📂 Repository Structure
+
+Phonepe-Pulse
+│
+├── notebooks
+│   └── phonepe_data_analysis.ipynb
+│
+├── streamlit_app
+│   └── app.py
+│
+└── README.md
+
+**📌 Overview :**
 The rapid growth of digital payment platforms has transformed the financial ecosystem in India. PhonePe, one of the leading UPI-based payment applications, provides open access to its transaction data through the PhonePe Pulse dataset.
 
 This project analyzes PhonePe transaction data to understand digital payment trends across India. By leveraging data analysis and visualization techniques, the project provides insights into transaction dynamics, user engagement, device usage, and insurance adoption.
@@ -10,7 +22,7 @@ An interactive dashboard was developed to visualize the insights and enable easy
 **Problem Statement :**
 With the increasing adoption of digital payment systems, it is important to understand how users interact with these platforms. This project focuses on analyzing transaction patterns, identifying high-performing regions, and understanding user behavior to generate actionable business insights.
 
-**Tech Stack :**
+**🛠️ Tech Used :**
 Python
 SQL
 Pandas
@@ -18,10 +30,10 @@ Matplotlib
 Seaborn
 Streamlit
 
-**Dataset :**
+**📂 Dataset :**
 The dataset used in this project is the PhonePe Pulse dataset, which contains aggregated information about transactions, users, devices, and insurance data across different states and districts in India.
 
-**Project Workflow :**
+**⚙️ Project Workflow :**
 1️⃣ Data Extraction
 The dataset was extracted from the PhonePe Pulse repository and organized into structured data formats for further processing.
 
@@ -41,27 +53,27 @@ Insurance transaction insights
 5️⃣ Dashboard Development
 An interactive dashboard was built using Streamlit to present the insights in a user-friendly format.
 
-**Key Business Use Cases :**
-**Transaction Dynamics Analysis**
+**📊 Key Business Use Cases :**
+**1.Transaction Dynamics Analysis**
 Understanding transaction trends across states and districts.
 
-**Device Usage Analysis**
+**2.Device Usage Analysis**
 Identifying the most commonly used devices for digital payments.
 
-**Insurance Adoption Insights**
+**3.Insurance Adoption Insights**
 Evaluating the growth potential of insurance-related transactions.
 
-**Market Expansion Analysis**
+**4.Market Expansion Analysis**
 Identifying regions with high and low transaction volumes.
 
-**User Engagement Analysis**
+**5.User Engagement Analysis**
 Understanding user registration trends and engagement levels.
 
-**Key Insights :**
+**📈 Key Insights :**
 Certain states show significantly higher digital payment adoption.
 UPI-based transactions dominate the payment ecosystem.
 Urban districts show stronger user engagement compared to rural areas.
 Device usage patterns reveal the dominance of mobile-based payments.
 
-**Conclusion :**
+**📬 Conclusion :**
 This project demonstrates how data analytics can be applied to understand digital payment trends and generate meaningful insights. It highlights the potential of data-driven decision-making for improving digital financial services.
